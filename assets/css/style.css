@@ -6,6 +6,13 @@ body {
 header {
   background-color: #ffffff;
   border-color: #cccccc;
+  display: block;
+  width: 100%;
+}
+header::after {
+  clear: both;
+  content: "";
+  display: table;
 }
 
 footer {
@@ -25,8 +32,8 @@ h2 {
 
 h2 {
   color: #4aaaa5;
-  line-height: 15px;
-  border: 3px solid #cccccc;
+  line-height: 20px;
+  border-bottom: 2px solid #cccccc;
 }
 
 .tealbg {
@@ -34,12 +41,24 @@ h2 {
   color: white;
 }
 
+#name {
+  display: inline;
+  float: left;
+  padding: 0 20px;
+}
+
 .container {
   width: 960px;
+  display: block;
+  margin: auto;
 }
 
 a {
   text-decoration: none;
+  float: right;
+  color: #777777;
+  margin: 30px;
+  font-size: 19px;
 }
 
 #imgTQ {
