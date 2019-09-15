@@ -42,14 +42,14 @@ h2 {
 }
 
 #name {
-  display: inline-block;
+  display: block;
   float: left;
   padding: 0 20px;
 }
 
 nav {
   float: right;
-  display: inline-block;
+  display: block;
 }
 
 a {
