@@ -7,7 +7,7 @@ body {
 header {
   background-color: #ffffff;
   border-color: #cccccc;
-  display: block;
+  display: flex;
   width: 100%;
 }
 
@@ -15,18 +15,6 @@ header::after {
   clear: both;
   content: "";
   display: table;
-}
-
-section {
-  background-color: #ffffff;
-  border-color: #dddddd;
-  width: 960px;
-  margin: 0 auto;
-}
-
-section p {
-  font-size: 20px;
-  line-height: 1.5em;
 }
 
 h1,
@@ -46,25 +34,44 @@ h2 {
   color: white;
 }
 
-#name {
-  display: inline;
-  float: left;
-  padding: 0 20px;
-}
-
 .container {
   width: 960px;
   display: block;
   margin: auto;
+  align-items: center;
+}
+
+#name {
+  display: inline-block;
+  float: left;
+  padding: 0 20px;
+}
+
+nav {
+  float: right;
+  display: inline-block;
 }
 
 a {
   text-decoration: none;
-  float: right;
   color: #777777;
   margin: 30px;
   margin-right: 0;
   font-size: 19px;
+  line-height: 80px;
+}
+
+section {
+  background-color: #ffffff;
+  border-color: #dddddd;
+  width: 960px;
+  margin: 0 auto;
+}
+
+section p {
+  color: black;
+  font-size: 17px;
+  line-height: 2em;
 }
 
 #imgTQ {
