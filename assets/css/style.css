@@ -90,15 +90,16 @@ section {
 
 section p {
   color: black;
-  font-size: 17px;
-  line-height: 1.7em;
+  font-size: 18px;
+  line-height: 1.6em;
 }
 
 #imgTQ {
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   float: left;
   margin-right: 30px;
+  margin-top: 5px;
 }
 
 footer {
