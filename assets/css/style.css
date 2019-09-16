@@ -35,7 +35,7 @@ h1 {
 }
 
 h2 {
-  margin-top: 40px;
+  margin-top: 10px;
   color: #4aaaa5;
   border-bottom: 2px solid #cccccc;
   line-height: 2.6em;
@@ -84,8 +84,9 @@ section {
   background-color: #ffffff;
   border-color: #dddddd;
   width: 960px;
-  margin: 0 auto;
+  margin: 30px auto;
   padding: 0 30px 20px 30px;
+  overflow: auto;
 }
 
 section p {
