@@ -119,3 +119,22 @@ footer p {
   bottom: 0px;
   margin: 0;
 }
+
+label {
+  display: block;
+  line-height: 30px;
+  font-size: 1.2em;
+  margin-bottom: 3px;
+}
+
+input {
+  display: block;
+  margin-bottom: 30px;
+  line-height: 30px;
+  width: 100%;
+}
+
+#submitbtn {
+  width: 90px;
+  cursor: pointer;
+}
