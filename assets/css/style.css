@@ -2,13 +2,22 @@
   box-sizing: border-box;
 }
 
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+  margin: 0;
+  position: relative;
+  padding-bottom: 50px;
+}
+
 body {
   color: #777777;
   font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
   background-image: url(/assets/images/bodybackground.jpg);
   background-size: cover;
   width: 100%;
-  margin: 0;
 }
 
 header {
@@ -112,6 +121,9 @@ footer {
   display: grid;
   place-items: center;
   border-top: 10px solid #4aaaa5;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 
 footer p {
@@ -188,4 +200,5 @@ input {
   position: absolute;
   bottom: 15px;
   font-size: 1.1em;
+  cursor: pointer;
 }
